@@ -925,6 +925,8 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 5px;
 }
+
+
 .grax_tm_portfolio .overlay{
 	position: absolute;
 	top: 0px;
@@ -932,9 +934,11 @@ h6 { font-size: 16px; }
 	left: 0px;
 	right: 0px;
 	z-index: 1;
-	background-color: #f9f9f9;
+	background-color: #f9f9f990;
 	border-radius: 5px;
-	
+
+	backdrop-filter: blur(3px);
+
 	opacity: 0;
 	visibility: hidden;
 	
@@ -944,6 +948,9 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+
+
+
 .grax_tm_portfolio ul li .list_inner:hover .overlay{
 	opacity: 1;
 	visibility: visible;
