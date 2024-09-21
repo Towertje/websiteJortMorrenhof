@@ -303,7 +303,7 @@ function grax_tm_hero_title_fade(){
 	var mySpan	= jQuery('.fn_animation .character');
 	var a 		= 0;
 	var speed 	= 30;
-	var wait	= 500;
+	var wait	= 300;
 	mySpan.each(function(i){
 		var element = jQuery(this);
 		setTimeout(function(){element.addClass('opened');},i*speed);
